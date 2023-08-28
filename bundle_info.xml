@@ -1,0 +1,43 @@
+<!--
+ChimeraX bundle names must start with "ChimeraX-"
+to avoid clashes with package names in pypi.python.org.
+When uploaded to the ChimeraX toolshed, the bundle
+will be displayed without the ChimeraX- prefix.
+-->
+
+<BundleInfo name="ChimeraX-InRange"
+	    version="0.1" package="chimerax.inrange"
+  	    minSessionVersion="1" maxSessionVersion="1">
+
+  <!-- Additional information about bundle source -->
+  <Author>Nickolas Aleksandar Nikolic</Author>
+  <Email>nikolic@uwm.edu</Email>
+  <URL>https://github.com/UW-Milwaukee-Chemistry-Drug-Research/inrange/</URL>
+
+  <!-- Synopsis is a one-line description
+       Description is a full multi-line description -->
+  <Synopsis>Find atoms in range of a zone.</Synopsis>
+  <Description>Find atoms in range of a zone.</Description>
+
+  <!-- Categories is a list where this bundle should appear -->
+  <Categories>
+    <Category name="General"/>
+  </Categories>
+
+  <!-- Dependencies on other ChimeraX/Python packages -->
+  <Dependencies>
+    <Dependency name="ChimeraX-Core" version="~=1.1"/>
+  </Dependencies>
+
+  <Classifiers>
+    <!-- Development Status should be compatible with bundle version number -->
+    <PythonClassifier>Development Status :: 3 - Alpha</PythonClassifier>
+    <PythonClassifier>License :: GPL</PythonClassifier>
+    <!-- ChimeraX classifiers describe supplied functionality -->
+    <!-- Register two commands for printing the center of mass
+	 and selecting/coloring atom(s) nearest the center of mass of atoms -->
+    <ChimeraXClassifier>ChimeraX :: Command :: inrange :: General ::
+      Select atoms in range of a zone.</ChimeraXClassifier>
+  </Classifiers>
+
+</BundleInfo>
