@@ -6,7 +6,7 @@ will be displayed without the ChimeraX- prefix.
 -->
 
 <BundleInfo name="ChimeraX-InRange"
-	    version="0.1" package="chimerax.inrange"
+	    version="0.4.1" package="chimerax.inrange"
   	    minSessionVersion="1" maxSessionVersion="1">
 
   <!-- Additional information about bundle source -->
